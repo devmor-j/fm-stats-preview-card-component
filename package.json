@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tw:dev": "tailwindcss -i ./main.css -o ./tailwind.css --watch",
-    "tw:build": "tailwindcss -o tailwind.min.css --minify"
+    "tw:dev": "tailwindcss -i ./src/index.css -o ./tailwind.css --watch",
+    "tw:build": "tailwindcss -i ./src/index.css -o tailwind.min.css --minify"
   },
   "keywords": [],
   "author": "",
