@@ -11,28 +11,31 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
 
   <!-- ------------ tailwindcss starting file ------------ -->
   <link rel="stylesheet" href="./src/index.css">
 
 </head>
 
-<body>
-  <main>
-    <div>
-      <img src="./src/images/image-header-mobile.jpg" alt="">
-    </div>
-    <div>
-      <h1>Get <span>insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-      <ul>
-        <li><span>10K+</span><span>COMPANIES</span></li>
-        <li><span>314</span><span>TEMPLATES</span></li>
-        <li><span>12M+</span><span>QUERIES</span></li>
-      </ul>
-    </div>
-  </main>
+<body class="flex flex-col min-h-screen justify-center items-center | bg-clr-main text-clr-paragraph font-Inter">
+  <div class="container mx-auto | flex flex-col justify-center items-center">
+    <main class="bg-clr-card | max-w-[18rem] sm:max-w-6xl mx-4 | flex flex-col sm:flex-row-reverse gap-2 | text-[14px] lg:text-[15px] text-center sm:text-left | rounded-xl border border-clr-main">
+      <picture class="w-full min-h-full rounded-tl-xl sm:rounded-tl-none sm:rounded-br-xl rounded-tr-xl bg-clr-accent sm:w-1/2">
+        <source media="(max-width: 640px)" srcset="./src/images/image-header-mobile.jpg">
+        <img class="w-full h-full | object-cover opacity-75 mix-blend-multiply" src="./src/images/image-header-desktop.jpg" alt="">
+      </picture>
+      <div class="flex flex-col gap-y-4 sm:w-1/2 justify-center items-center p-6 sm:p-8 md:p-10 lg:p-16 lg:gap-y-8">
+        <h1 class="font-bold sm:mx-0 text-2xl lg:text-3xl xl:text-4xl xl:leading-[3rem] | text-clr-head">Get <span class="text-clr-accent">insights</span> that help your business grow.</h1>
+        <p class="xl:text-lg font-light">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <ul class="text-clr-head text-lg lg:text-lg xl:text-2xl font-light tracking-wide | flex flex-col gap-4 w-full sm:flex-row justify-center items-center sm:justify-between pt-4 xl:pt-8 xl:pr-12">
+          <li class="flex flex-col"><span class="font-bold">10k+</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">COMPANIES</span></li>
+          <li class="flex flex-col"><span class="font-bold">314</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">TEMPLATES</span></li>
+          <li class="flex flex-col"><span class="font-bold">12M+</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">QUERIES</span></li>
+        </ul>
+      </div>
+    </main>
+  </div>
 
 </body>
 
