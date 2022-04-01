@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- ------------ tailwindcss starting file ------------ -->
+  
+
+  <link rel="stylesheet" href="/assets/index.2db1fc1c.css">
+</head>
+
+<body class="flex flex-col min-h-screen justify-center items-center | bg-clr-main text-clr-paragraph font-Inter">
+  <div class="container mx-auto | flex flex-col justify-center items-center">
+    <main class="bg-clr-card | max-w-[18rem] sm:max-w-6xl mx-4 | flex flex-col sm:flex-row-reverse gap-2 | text-[14px] lg:text-[15px] text-center sm:text-left | rounded-xl border border-clr-main">
+      <picture class="w-full min-h-full rounded-tl-xl sm:rounded-tl-none sm:rounded-br-xl rounded-tr-xl bg-clr-accent sm:w-1/2">
+        <source media="(max-width: 640px)" srcset="/assets/image-header-mobile.1da9426a.jpg ">
+        <img class="w-full h-full | object-cover opacity-75 mix-blend-multiply" src="/assets/image-header-desktop.c3703b29.jpg" alt="">
+      </picture>
+      <div class="flex flex-col gap-y-4 sm:w-1/2 justify-center items-center p-6 sm:p-8 md:p-10 lg:p-16 lg:gap-y-8">
+        <h1 class="font-bold sm:mx-0 text-2xl lg:text-3xl xl:text-4xl xl:leading-[3rem] | text-clr-head">Get <span class="text-clr-accent">insights</span> that help your business grow.</h1>
+        <p class="xl:text-lg font-light">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <ul class="text-clr-head text-lg lg:text-lg xl:text-2xl font-light tracking-wide | flex flex-col gap-4 w-full sm:flex-row justify-center items-center sm:justify-between pt-4 xl:pt-8 xl:pr-12">
+          <li class="flex flex-col"><span class="font-bold">10k+</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">COMPANIES</span></li>
+          <li class="flex flex-col"><span class="font-bold">314</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">TEMPLATES</span></li>
+          <li class="flex flex-col"><span class="font-bold">12M+</span><span class="text-clr-stat leading-4 text-[10px] xl:text-xs xl:leading-6 tracking-widest font-Lexend-Deca">QUERIES</span></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
