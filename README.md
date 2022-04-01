@@ -23,7 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop:
+
 ![Desktop screenshot](./screenshot/Desktop%20-%20Stats%20preview%20card%20component.webp)
+
+Mobile:
+
+![Mobile screenshot](./screenshot/Mobile%20-%20Stats%20preview%20card%20component.webp)
 
 ### Links
 
